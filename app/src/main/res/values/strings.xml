@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Aplikasi Kosong</string>
+
+    <string name="MenuBtn1">Show List</string>
+    <string name="MenuBtn2">About</string>
+    <string name="MenuBtn3">Close App</string>
+
+    <string name="MenuTitle1">List of Items</string>
+    <string name="MenuTitle2">About Application</string>
+
+    <string name="About">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet nulla ac nisi condimentum ultricies.
+        Duis non accumsan elit. Nam ac nulla risus. Aliquam erat volutpat. Aliquam purus nibh, ultricies vel mi sit amet,
+        vestibulum aliquam mi. Sed ligula enim, feugiat a feugiat placerat, semper a est.
+        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Maecenas fringilla consequat dolor id efficitur. Sed id convallis nibh. Cras condimentum eget tortor sed aliquam.
+    </string>
+
+    <string name="devname">Insert Developer Name Here</string>
+
+    <string-array name="items">
+        <item>Item Number One</item>
+        <item>Item Number Two</item>
+        <item>Item Number Three</item>
+    </string-array>
+
+</resources>

@@ -14,9 +14,9 @@
         android:text="@string/MenuTitle2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="20sp"
-        android:layout_marginTop="20sp"
-        android:textSize="30sp"/>
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
 
     <ImageView
         android:id="@+id/appicon"
@@ -26,7 +26,7 @@
         app:layout_constraintTop_toBottomOf="@id/MenuTitle2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="50sp"/>
+        android:layout_marginTop="50dp"/>
 
     <TextView
         android:id="@+id/appnametext"
@@ -35,10 +35,10 @@
         app:layout_constraintTop_toBottomOf="@id/appicon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="20dp"
         android:textAlignment="center"
         android:text="@string/app_name"
-        android:textSize="15sp"
+        android:textSize="15dp"
         android:textStyle="bold"/>
 
     <TextView
@@ -48,19 +48,21 @@
         app:layout_constraintTop_toBottomOf="@id/appnametext"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="20dp"
         android:textAlignment="center"
         android:text="@string/About"
-        android:textSize="15sp"/>
+        android:textSize="15dp"/>
 
     <Button
         android:id="@+id/devname"
+        style="@android:style/Holo.ButtonBar.AlertDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="20dp"
         android:text="@string/devname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/about" />
+        app:layout_constraintTop_toBottomOf="@id/about"
+        android:textColor="@color/colorPrimary"/>
 
 </android.support.constraint.ConstraintLayout>

@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:textSize="30dp"/>
+        android:textSize="30sp"/>
 
     <ImageView
         android:id="@+id/appicon"
@@ -38,7 +38,7 @@
         android:layout_marginTop="20dp"
         android:textAlignment="center"
         android:text="@string/app_name"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"/>
 
     <TextView
@@ -51,7 +51,7 @@
         android:layout_marginTop="20dp"
         android:textAlignment="center"
         android:text="@string/About"
-        android:textSize="15dp"/>
+        android:textSize="15sp"/>
 
     <Button
         android:id="@+id/devname"

@@ -25,7 +25,8 @@
         android:text="@string/MenuBtn1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/AppLogo" />
+        app:layout_constraintTop_toBottomOf="@id/AppLogo"
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/MenuBtn2"
@@ -34,7 +35,9 @@
         app:layout_constraintTop_toBottomOf="@+id/MenuBtn1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
         android:text="@string/MenuBtn2"
+        android:textSize="20sp"
         />
 
     <Button
@@ -44,7 +47,9 @@
         app:layout_constraintTop_toBottomOf="@+id/MenuBtn2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
         android:text="@string/MenuBtn3"
+        android:textSize="20sp"
         />
 
 

@@ -8,12 +8,21 @@ import android.os.Bundle;
 import android.view.Display;
 import android.widget.ImageView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+
 public class ItemDetailActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_itemdetail);
+
+
+
+
 
         Intent in = getIntent();
         int index = in.getIntExtra("com.example.pseudonym.ITEM_INDEX", -1);
